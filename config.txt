@@ -1,0 +1,20 @@
+# Add your lines at the end of the config.txt file.
+# this is an example.
+start_x=1
+enable_uart=1
+arm_freq=1300
+gpu_freq=500
+sdram_freq=500
+over_voltage_sdram=3
+# over_voltage is done by the governor.
+# set the parameter to overrule its moderate choice.
+over_voltage=5
+
+# Ctrl+X, Y, Enter to save the session
+# Reboot to run at the new clock frequency
+dtparam=spi=on
+dtparam=i2c_arm=on
+dtoverlay=w1-gpio
+[all]
+#dtoverlay=vc4-kms-v3d
+gpu_mem=128
