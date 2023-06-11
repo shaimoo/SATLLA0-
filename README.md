@@ -1,4 +1,5 @@
 # SATLLA0-
+![image](https://github.com/shaimoo/SATLLA0-/assets/92544909/62848a76-3103-445a-bc18-e6417797a001)
 
 ## Overview
 SATLLA-0 (also known as satllazero) is an open source project dedicated to the development of a complete pico-satellite.<br>
