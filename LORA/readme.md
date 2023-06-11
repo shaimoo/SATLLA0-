@@ -42,13 +42,13 @@ Click on the Upload button to compile and upload the sketch to the CubeCell AB02
 Once the upload is complete, the LED on the board should start blinking.<br>
 
 ## LoRaWAN Configuration
-Open the OTAA example sketch by going to File -> Examples -> LoRa -> LoRaWAN_OTAA.
-Configure the LoRaWAN parameters in the sketch, including APP_EUI, APP_KEY, DEV_EUI, and LORAWAN_REGION. Refer to your LoRaWAN network provider's documentation for these values.
-Verify that the Board and Port settings are still correct.
-Click on the Upload button to compile and upload the sketch to the CubeCell AB02.
-Once the upload is complete, open the Serial Monitor by going to Tools -> Serial Monitor.
-Set the baud rate to 115200 and ensure that the line ending is set to Newline.
-You should see the device joining the LoRaWAN network and displaying the relevant information in the Serial Monitor.
+Open the OTAA example sketch by going to File -> Examples -> LoRa -> LoRaWAN_OTAA.<br>
+Configure the LoRaWAN parameters in the sketch, including APP_EUI, APP_KEY, DEV_EUI, and LORAWAN_REGION. Refer to your LoRaWAN network provider's documentation for these values.<br>
+Verify that the Board and Port settings are still correct.<br>
+Click on the Upload button to compile and upload the sketch to the CubeCell AB02.<br>
+Once the upload is complete, open the Serial Monitor by going to Tools -> Serial Monitor.<br>
+Set the baud rate to 115200 and ensure that the line ending is set to Newline.<br>
+You should see the device joining the LoRaWAN network and displaying the relevant information in the Serial Monitor.<br>
 
 ## Sample Code
 The CubeCell AB02 comes with a variety of example sketches that demonstrate different functionalities. To access the examples, go to File -> Examples -> LoRa or CubeCell and explore the available sketches. These examples cover topics such as sensor readings, GPS, LoRaWAN communication, and more.
