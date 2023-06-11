@@ -146,7 +146,7 @@ sudo systemctl restart sat<br>
 
 
 
-In the picture you can see the connection of the camera to the Raspberry Pi, the card we burned goes into the Raspberry Pi, we connected the USB connection to a computer screen in order to work with it. The white cable is a connection to the electricity because it is a satellite so we connected it to the power bank we soldered the legs of the controller and the soldering of the Raspberry Pi where are the RX TX GROUND in order to connect the wires that are connected to the Raspberry Pi to the appropriate legs you can see the picture we collected the number of legs that need to be connected in our case 6,8,10 we connect to the controller and we connect the controller to the computer, through it we give commands to the Raspberry Pi. Among the commands that can be sent to him are reading and writing messages.
+In the picture you can see the connection of the camera to the Raspberry Pi, the card we burned goes into the Raspberry Pi, we connected the USB connection to a computer screen in order to work with it. The white cable is a connection to the electricity because it is a satellite so we connected it to the power bank we soldered the legs of the controller and the soldering of the Raspberry Pi where are the RX TX GROUND in order to connect the wires that are connected to the Raspberry Pi to the appropriate legs you can see the picture we collected the number of legs that need to be connected in our case 6,8,10 we connect to the controller and we connect the controller to the computer, through it we give commands to the Raspberry Pi. Among the commands that can be sent to him are reading and writing messages.<br>
 
 
 
@@ -157,5 +157,24 @@ In the picture you can see the connection of the camera to the Raspberry Pi, the
  
 
 
-It is actually our ground station with which we communicate with a satellite through Lora, which both listens to the satellite and sends requests to it, and in the opposite direction. That the communication can be remote like real satellite in the space independent.
+It is actually our ground station with which we communicate with a satellite through Lora, which both listens to the satellite and sends requests to it, and in the opposite direction. That the communication can be remote like real satellite in the space independent.<br>
+
+## how to run <br>
+To run the project, follow these steps:
+
+- Download the project files from the Git repository by clicking on the green button above.
+- Connect the Cubecell device to your computer using a USB cable.
+Burn the sender code onto the Cubecell device for the ground station.
+Burn the Cubecell receiver code onto the other Cubecell device.
+Connect all the necessary cables to the Raspberry Pi.
+Clone the Git repository onto the Raspberry Pi.
+Open the terminal on the Raspberry Pi and navigate to the project directory.
+Run the read.py script from the terminal on the Raspberry Pi.
+On the ground station, run the pc_receive_file.py script.
+Connect the Cubecell device to the ground station.
+Now you can use a few commands to interact with the system:
+To check the temperature of the Raspberry Pi, use the command: temperature. This will print the temperature reading.
+To take a picture using the connected camera, use the command: take a picture.
+To compress the captured image and send it via LoRa, use the command: send.
+Make sure to follow the instructions carefully and ensure that all the dependencies are installed on the Raspberry Pi and the ground station
 
