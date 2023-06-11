@@ -133,7 +133,9 @@ sudo systemctl restart sat<br>
 
 
 
-
+## data of pictureas 
+- at folder picture_camera1 you can see few fotos.
+- at folder picture_camera2 you can see few fotos.
 
 
 
