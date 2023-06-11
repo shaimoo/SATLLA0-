@@ -1,3 +1,6 @@
+recive this is the cubecell of the restberypi.
+sender this is the pc ground station cubecell.
+
 # CubeCell AB02 Guide
 This guide will provide you with step-by-step instructions on how to use the CubeCell AB02, a LoRaWAN development board, to help you get started with your projects. Please follow the instructions below:
 
