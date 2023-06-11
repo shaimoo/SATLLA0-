@@ -1,4 +1,4 @@
-# CubeCell AB02 Readme Guide
+# CubeCell AB02 Guide
 This guide will provide you with step-by-step instructions on how to use the CubeCell AB02, a LoRaWAN development board, to help you get started with your projects. Please follow the instructions below:
 
 ## Table of Contents
