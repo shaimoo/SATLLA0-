@@ -151,10 +151,12 @@ sudo systemctl restart sat<br>
 In the picture you can see the connection of the camera to the Raspberry Pi, the card we burned goes into the Raspberry Pi, we connected the USB connection to a computer screen in order to work with it. The white cable is a connection to the electricity because it is a satellite so we connected it to the power bank we soldered the legs of the controller and the soldering of the Raspberry Pi where are the RX TX GROUND in order to connect the wires that are connected to the Raspberry Pi to the appropriate legs you can see the picture we collected the number of legs that need to be connected in our case 6,8,10 we connect to the controller and we connect the controller to the computer, through it we give commands to the Raspberry Pi. Among the commands that can be sent to him are reading and writing messages.<br>
 
 
+<br><br>
+
+![image](https://github.com/shaimoo/SATLLA0-/assets/92544909/05515d3f-a67e-4476-bfef-3031d25c51aa)<br>
 
 
-
-
+![image](https://github.com/shaimoo/SATLLA0-/assets/92544909/e78bac57-979f-4959-8467-77e50950e391)<br>
 
  
 
