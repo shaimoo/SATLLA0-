@@ -164,17 +164,17 @@ To run the project, follow these steps:
 
 - Download the project files from the Git repository by clicking on the green button above.
 - Connect the Cubecell device to your computer using a USB cable.
-Burn the sender code onto the Cubecell device for the ground station.
-Burn the Cubecell receiver code onto the other Cubecell device.
-Connect all the necessary cables to the Raspberry Pi.
-Clone the Git repository onto the Raspberry Pi.
-Open the terminal on the Raspberry Pi and navigate to the project directory.
-Run the read.py script from the terminal on the Raspberry Pi.
-On the ground station, run the pc_receive_file.py script.
-Connect the Cubecell device to the ground station.
-Now you can use a few commands to interact with the system:
-To check the temperature of the Raspberry Pi, use the command: temperature. This will print the temperature reading.
-To take a picture using the connected camera, use the command: take a picture.
-To compress the captured image and send it via LoRa, use the command: send.
+- Burn the sender code onto the Cubecell device for the ground station.
+- Burn the Cubecell receiver code onto the other Cubecell device.
+- Connect all the necessary cables to the Raspberry Pi.
+- Clone the Git repository onto the Raspberry Pi.
+- Open the terminal on the Raspberry Pi and navigate to the project directory.
+- Run the read.py script from the terminal on the Raspberry Pi.
+- On the ground station, run the pc_receive_file.py script.
+- Connect the Cubecell device to the ground station.
+- Now you can use a few commands to interact with the system:
+- To check the temperature of the Raspberry Pi, use the command: temperature. This will print the temperature reading.
+- To take a picture using the connected camera, use the command: take a picture.
+- To compress the captured image and send it via LoRa, use the command: send.
 Make sure to follow the instructions carefully and ensure that all the dependencies are installed on the Raspberry Pi and the ground station
 
