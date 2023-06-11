@@ -1,4 +1,4 @@
-recive this is the cubecell of the restberypi.
+recive this is the cubecell of the restberypi. <br>
 sender this is the pc ground station cubecell.
 
 # CubeCell AB02 Guide
