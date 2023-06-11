@@ -54,11 +54,11 @@ You should see the device joining the LoRaWAN network and displaying the relevan
 The CubeCell AB02 comes with a variety of example sketches that demonstrate different functionalities. To access the examples, go to File -> Examples -> LoRa or CubeCell and explore the available sketches. These examples cover topics such as sensor readings, GPS, LoRaWAN communication, and more.
 
 ## Additional Resources
-For more information and resources, refer to the following:
+For more information and resources, refer to the following:<br><br>
 
-CubeCell GitHub Repository
-CubeCell Wiki
-Heltec Community Forum
-Feel free to explore the provided resources, experiment with different sketches, and adapt the code to suit your specific project requirements.
+CubeCell GitHub Repository<br>
+CubeCell Wiki<br>
+Heltec Community Forum<br><br>
+Feel free to explore the provided resources, experiment with different sketches, and adapt the code to suit your specific project requirements.<br>
 
 Happy coding with CubeCell AB02!
